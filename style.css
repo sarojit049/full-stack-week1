@@ -1,43 +1,28 @@
 body{
-    margin:0;
-    padding:0;
-    font-family:Arial;
-    background:#f4f4f4;
+    font-family: Verdana, sans-serif;
+    background-color: #cfcf69;
+    text-align: center;
+    padding-top: 100px;
 }
 
-header{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:40px;
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gray;
 }
 
-.about,
-.skills,
-.contact{
-    background:white;
-    margin:20px;
-    padding:20px;
-    border-radius:10px;
-}
-
-h2{
-    color:#333;
-}
-
-ul{
-    padding-left:20px;
+h1{
+    color: #06433c;
 }
 
 button{
-    background:#007bff;
-    color:white;
-    border:none;
-    padding:10px 20px;
-    border-radius:5px;
-    cursor:pointer;
-}
-
-button:hover{
-    background:#0056b3;
+    background-color: #dd1111;
+    color: rgb(185, 150, 150);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
 }
